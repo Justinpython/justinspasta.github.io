@@ -107,8 +107,8 @@ h4 {
 }
 .reserve .btn {
   margin: 15px 0;
-  background-color: #fff !important;
-  color: grey;
+  background-color: #EDDF62 !important;
+  color: black;
 }
 .reserve .btn:hover {
   border: 1px solid #EDDF62;
