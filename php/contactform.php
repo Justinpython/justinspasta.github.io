@@ -14,3 +14,4 @@ if (isset($_post["submit"])) {
   header("Location: index.php?mailsend");
 
 }
+?>
