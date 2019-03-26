@@ -2,11 +2,11 @@
 
 if (isset($_post["submit"])) {
   $name = $_POST["name"];
-  $subject = $_POST["subject"];
-  $mailFrom = $_POST["mail"];
+  $mailFrom = $_POST["email"];
   $message = $_POST["message"];
+  $subject = "from page";
 
-  $mailTo = "info@justinspasta.co.uk"
+  $mailTo = "info@justinspasta.co.uk";
   $headers = "From: ".$mailFrom;
   $txt = "You have mail from ".$name.".\n\n".$message;
 

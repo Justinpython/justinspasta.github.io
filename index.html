@@ -225,7 +225,7 @@
       </div>
 
       <div class="col-sm-7 slideanim">
-        <form class="contact-form" action="/php/contactform.php" method="post">
+        <form class="contact-form" action="php/contactform.php" method="post">
         <div class="row">
           <div class="col-sm-6 form-group">
             <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
@@ -251,5 +251,11 @@
   </a>
   <p>Inspired by w3schools, and made with Bootstrap</p>
 </footer>
+
+<script>window.onload = () => {
+    let el = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+    el.parentNode.removeChild(el);
+}</script>
+
 </body>
 </html>
